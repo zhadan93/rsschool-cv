@@ -1,0 +1,52 @@
+section, figure, figcaption {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+	font-family: 'VanSans Light';
+	src: url(fonts/VanSans-Light.otf);
+}
+
+body {
+  font-family: 'VanSans Light';
+}
+.conteiner {
+  padding: 10px;
+  max-width: 900px;
+  display: flex;
+  margin: auto;
+}
+.conteiner-left {
+  background: linear-gradient(to right, #fff 50%, #ffe5ed 50%);
+  display: flex;
+  align-items: center;
+}
+.conteiner-right {
+    background-color: #ffe5ed;
+    padding-left: 20px;
+  }
+.personal-information {
+  background-color: #fff;
+  padding: 20px;
+}
+figcaption {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.education-degree {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+h4 {
+  margin-left: 20px;
+}
+pre {
+  margin-left: -65px;
+}
+footer {
+  max-width: 900px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
