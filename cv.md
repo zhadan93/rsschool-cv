@@ -47,3 +47,23 @@ function positiveSum(arr) {
 
 alert( positiveSum([-1,2,3,4,-5]) ); //9
 ```
+
+## Education
+
+------
+
+### National Research Nuclear University MEPhI, 2015-2017
+
+Master’s degree in Applied Mathematics and Computer Science
+
+### National Research Nuclear University MEPhI, 2011-2015
+
+Bachelor’s degree in Applied Mathematics
+
+## Languages
+
+------
+
+* Russian (native)
+
+* English (between A1, A2)
