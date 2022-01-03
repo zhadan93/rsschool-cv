@@ -46,3 +46,24 @@ function findOutlier(integers){
   return evenInteger.size > oddInteger.size ? Array.from(oddInteger.values())[0] : Array.from(evenInteger.values())[0];
 }
 ```
+
+## Education
+
+**National Research Nuclear University MEPhI, 2015-2017**  
+Master’s degree in Applied Mathematics and Computer Science
+
+**National Research Nuclear University MEPhI, 2011-2015**  
+Bachelor’s degree in Applied Mathematics
+
+## Courses
+
+**RS School, 2021**  
+JavaScript/Front-end 2021Q1 (2 of 3 stages)
+
+![Stats](images/stats.png)
+
+## Languages
+
+* Russian (native)
+
+* English (between A1, A2)
