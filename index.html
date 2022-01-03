@@ -47,6 +47,44 @@
           </section>
         </div>
         
+        <div class="conteiner-right">
+          <section class="profile">
+            <h3>Profile</h3>
+            <p>I want to improve my skills in frontend development in order to create friendly-behavior
+            software products and make users' lives more comfortable. Unfortunately, at the moment
+            I don't have enough skills and experience to fully realize myself in this field of knowledge,
+            but I have a great desire. I'm purposeful and hardworking, ready to study constantly
+            and work hard to get the necessary skills and the job that brings pleasure.</p>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML5, CSS3 (BEM methodology)</li>
+              <li>JavaScript basics</li>
+              <li>Module Bundler: Webpack</li>
+              <li>Editor: Visual Studio Code</li>
+              <li>SQL basics</li>
+              <li>Adobe Photoshop, Figma (for web development)</li>
+              <li>Git</li>
+            </ul>
+          </section>
+
+          <section class="code-example">
+            <h3>Code example</h3>
+            <p><a href="https://www.codewars.com/kata/5526fc09a1bbd946250002dc" target="_blank">Find The Parity Outlier</a> (Codewars kata)</p>
+            <pre><code>
+              function findOutlier(integers){
+                let evenInteger = new Map();
+                let oddInteger = new Map();
+                  
+                integers.forEach((item, index) => !(item % 2) ? evenInteger.set(index, item) : oddInteger.set(index, item));
+                
+                return evenInteger.size > oddInteger.size ? Array.from(oddInteger.values())[0] : Array.from(evenInteger.values())[0];
+              }
+            </code></pre>
+          </section>
+
+        </div>
         
       </main>
 
