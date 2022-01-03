@@ -1,5 +1,12 @@
+
+@font-face {
+	font-family: 'VanSans Light';
+	src: url(assets/fonts/VanSans-Light.otf);
+}
+
 body {
   margin: 0;
+  font-family: 'VanSans Light';
 }
 
 .header {
