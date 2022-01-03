@@ -6,8 +6,6 @@ body {
   background-color: lightpink;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
 }
 
 .list {
@@ -38,12 +36,7 @@ body {
   color: white;
   font-weight: bold;
 }
-.conteiner {
-  padding: 10px;
-  max-width: 900px;
-  display: flex;
-  margin: auto;
-}
+
 
 .footer {
   display: flex;
