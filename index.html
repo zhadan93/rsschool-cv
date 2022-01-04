@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav>
+          <ul class="list">
+            <li class="list-item"><a class="list-link" href="#contacts" >Contacts</a></li>
+            <li class="list-item"><a class="list-link" href="#profile">Profile</a></li>
+            <li class="list-item"><a class="list-link" href="#skills">Skills</a></li>
+            <li class="list-item"><a class="list-link" href="#code">Code example</a></li>
+            <li class="list-item"><a class="list-link" href="#education">Education</a></li>
+            <li class="list-item"><a class="list-link" href="#courses">Courses</a></li>
+            <li class="list-item"><a class="list-link" href="#projects">Projects</a></li>
+            <li class="list-item"><a class="list-link" href="#lang">Languages</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="conteiner">
+        <div class="personal-information">
+          <section class="name">
+        
+            <figure class="avatar">
+              <img src="assets/img/avatar.jpg" alt="Profile picture" width="250">
+              <h1>Evgeniia Zhadan</h1>
+            </figure>
+
+          </section>
+
+          <section id="contacts" class="contacts"> 
+            <h3>Contacts</h3>
+
+            <ul>
+              <li>Moscow, Russia</li>
+              <li>+7 962 969 82 46</li>
+              <li>zhadan.evgenya@yandex.ru</li>
+              <li><a href="https://github.com/zhadan93" target="_blank">https://github.com/zhadan93</a></li>
+              <li>Evgeniia Zhadan (@zhadan93)</li>
+            </ul>
+
+          </section>
+
+        </div>
+        
+        <div class="about-me">
+          
+          <section id="profile" class="profile">
+            <h3>Profile</h3>
+            <p>I want to improve my skills in frontend development in order to create friendly-behavior
+            software products and make users' lives more comfortable. Unfortunately, at the moment
+            I don't have enough skills and experience to fully realize myself in this field of knowledge,
+            but I have a great desire. I'm purposeful and hardworking, ready to study constantly
+            and work hard to get the necessary skills and the job that brings pleasure.</p>
+          </section>
+          
+          <section id="skills" class="skills">
+            <h3>Skills</h3>
+            
+            <ul>
+              <li>HTML5, CSS3 (BEM methodology)</li>
+              <li>JavaScript basics</li>
+              <li>Module Bundler: Webpack</li>
+              <li>Editor: Visual Studio Code</li>
+              <li>SQL basics</li>
+              <li>Adobe Photoshop, Figma (for web development)</li>
+              <li>Git</li>
+            </ul>
+
+          </section>
+
+          <section id="code" class="code-example">
+            <h3>Code example</h3>
+            <p><a href="https://www.codewars.com/kata/5526fc09a1bbd946250002dc" target="_blank">Find The Parity Outlier</a> (Codewars kata)</p>
+            <pre><code>
+              function findOutlier(integers){
+                let evenInteger = new Map();
+                let oddInteger = new Map();
+                  
+                integers.forEach((item, index) => !(item % 2) ? evenInteger.set(index, item) 
+                  : oddInteger.set(index, item));
+                
+                return evenInteger.size > oddInteger.size ? Array.from(oddInteger.values())[0] 
+                  : Array.from(evenInteger.values())[0];
+              }
+            </code></pre>
+          </section>
+
+          <section id="education" class="education">
+            <h3>Education</h3>
+            <h4>National Research Nuclear University MEPhI, 2015-2017</h4>
+            <div class="education-degree"><i>Master’s degree in Applied Mathematics and Computer Science</i></div>
+            <h4>National Research Nuclear University MEPhI, 2011-2015</h4>
+            <div class="education-degree"><i>Bachelor’s degree in Applied Mathematics</i></div>
+          </section>
+
+          <section id="courses" class="courses">
+            <h3>Courses</h3>
+            <h4>RS School, 2021</h4>
+            <div class="education-degree"><i>JavaScript/Front-end 2021Q1 (2 of 3 stages)</i></div>
+            <div class="stats"><img src="assets/img/stats.png" alt="stats" width="500"></div>
+          </section>
+
+          <section id="projects" class="projects">
+            <h3>Projects</h3>
+            <div><a href="https://rolling-scopes-school.github.io/zhadan93-JSFE2021Q1/photo-filter/" target="_blank">Photo filter</a></div>
+            <div><a href="https://rolling-scopes-school.github.io/zhadan93-JSFE2021Q1/virtual-piano/" target="_blank">Virtual Piano</a></div>
+          </section>
+
+          <section id="lang" class="languages">
+            <h3>Languages</h3>
+            
+            <ul>
+              <li>Russian (native)</li>
+              <li>English (between A1, A2)</li>
+            </ul>
+
+          </section>
+
+        </div>
+        
+      </main>
+
+      <footer class="footer">
+        <a href="https://github.com/zhadan93" target="_blank"><img src="assets/img/github-logo.png" alt="github logo" width="48"></a>
+        <h2>2022</h2>
+        <a href="https://rs.school/js/" target="_blank"><img src="assets/img/rs_school_js.svg" alt="rs school js logo" width="110"></a>
+      </footer>
+
+    </div>
+  </body>
+</html>
