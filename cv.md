@@ -60,7 +60,13 @@ Bachelor’s degree in Applied Mathematics
 **RS School, 2021**  
 JavaScript/Front-end 2021Q1 (2 of 3 stages)
 
-![Stats](images/stats.png)
+![Stats](assets/img/stats.png)
+
+## Projects
+
+* [Photo filter](https://rolling-scopes-school.github.io/zhadan93-JSFE2021Q1/photo-filter/)
+  
+* [Virtual piano](https://rolling-scopes-school.github.io/zhadan93-JSFE2021Q1/virtual-piano/)
 
 ## Languages
 
