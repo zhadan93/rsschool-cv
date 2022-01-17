@@ -1,0 +1,132 @@
+
+@font-face {
+	font-family: 'VanSans Light';
+	src: url(assets/fonts/VanSans-Light.otf);
+}
+
+section, 
+body, 
+figure,
+h1 {
+  margin: 0;
+  padding: 0;
+} 
+
+h1 {
+  font-size: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'VanSans Light';
+}
+
+.header {
+  background-color: #fff;
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 900px;
+  padding: 10px 30px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: right;
+  list-style-type: none;
+}
+
+.list-item {
+  margin-right: 20px;
+}
+
+.list-item:last-child {
+  margin-right: 0;
+}
+
+.list-link {
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.list-link:hover {
+  color: darkviolet;
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 900px;
+  margin: auto;
+}
+
+.conteiner {
+  display: flex;
+  margin-top: 70px;
+}
+
+pre {
+  margin-left: -75px;
+}
+
+.personal-information {
+  background: linear-gradient(to right, #fff 50%, #ffe5ed 50%);
+}
+
+.name {
+  padding-top: 15px;
+  margin-top: 50px;
+}
+
+.name,
+.contacts {
+  background-color: #fff;
+  padding-right: 15px;
+}
+
+.about-me {
+  padding-left: 20px;
+  padding-right: 10px;
+  background-color: #ffe5ed;
+}
+
+.contacts {
+  padding-bottom: 5px;
+}
+
+.education-degree {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+.stats {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.contacts,
+.profile,
+.skills,
+.code-example,
+.education,
+.courses,
+.languages {
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
